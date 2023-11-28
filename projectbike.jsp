@@ -1,0 +1,84 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+
+.parent
+    {
+            height: 80px;
+            width: 100%;
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    }    
+    .menu{
+        display: flex;
+        gap: 40px;
+    }
+    .su
+    {
+        color: white;
+    }
+    .m
+    {
+        color: black;
+        font-size: larger;
+    }
+    .n{
+        font-size: xx-large;
+    }
+    a{
+        text-decoration: none;
+        
+    }
+    body{
+        
+        background-image: url(https://www.bhmpics.com/downloads/light-colour-wallpaper/27.light-color-mobile-wallpaper.jpg) ;
+        background-size: 100%;
+    }
+    .com{
+        background-color: aqua;
+        height: 100px;
+        width: 300px;
+        margin-top: 200px;
+       
+    }
+    .al{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .ju
+    {
+        padding-top: 15px;
+    }
+
+</style>
+<body>
+    <div class="parent">
+        <h2 class="m n">BIET College</h2>
+        <div class="menu">
+            <a href="project.html" class="m">Home</a>
+            <a href="" class="m">About</a>
+            <a href="" class="m">Contact us</a>
+        </div>
+    </div>
+    <div class="al">
+        <div class="com" onclick="chg()" >
+            <a href="projectbikead.jsp"><h1 align="center" class="ju j">Add bike</h1></a>
+        </div>
+        <div class="com">
+            <a href="projectbikeremov.jsp"><h1  align="center" class="ju">remove bike</h1></a>
+        </div>
+        <div class="com">
+            <a href="projectbikeforrent.jsp"><h1 align="center" class="ju">bike for rent</h1></a>
+        </div>
+    </div>
+</body>
+</html>
