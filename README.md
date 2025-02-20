@@ -1,0 +1,1 @@
+A web app on Revolutionary Ride Rentals unleashes the wheels of wonder using Java Servlets and its servers to host the application and manage the backend. For frontend HTML/CSS and Javascript has been used.
